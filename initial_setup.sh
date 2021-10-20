@@ -4,7 +4,8 @@
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
 
-# gnome tweaks
+# cool applications
+sudo apt-get install ffmpegthumbnailer
 sudo apt-get install gnome-tweaks
 sudo apt-get install gnome-shell-extensions
 
