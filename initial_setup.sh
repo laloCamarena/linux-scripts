@@ -12,7 +12,7 @@ sudo apt-get install git
 git config --global user.name "eduardo camarena"
 git config --global user.email "lalo.a.camarena@gmail.com"
 git config --global pager.branch false
-git config --global core.pager "less -FRX"
+git config --global pager.log false
 
 # cool applications
 sudo apt-get install ffmpegthumbnailer
