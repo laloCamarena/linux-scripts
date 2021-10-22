@@ -14,8 +14,8 @@ sudo apt-get install -y git
 git config --global user.name "eduardo camarena"
 git config --global user.email "lalo.a.camarena@gmail.com"
 git config --global pager.branch false
-git config --global pager.log false
 # this can be used to not use any pager: git config --global pager.core ''
+# to use a less pager run the command git config --global pager.<pager_type> "less -FRX"
 
 # cool applications
 sudo apt-get install -y ffmpegthumbnailer
