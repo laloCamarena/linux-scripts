@@ -21,6 +21,11 @@ git config --global pager.log false
 sudo apt-get install -y ffmpegthumbnailer
 sudo apt-get install -y gnome-tweaks
 sudo apt-get install -y gnome-shell-extensions
+sudo apt-get install -y psensor
+sudo apt-get install -y vim
+# run these commands if thumbnails still don't work 
+# sudo apt-get install gstreamer1.0-libav
+# sudo rm -rf $HOME/.cache/thumbnails/
 
 # install chrome
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
