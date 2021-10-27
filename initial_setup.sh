@@ -23,6 +23,7 @@ sudo apt-get install -y gnome-tweaks
 sudo apt-get install -y gnome-shell-extensions
 sudo apt-get install -y psensor
 sudo apt-get install -y vim
+sudo apt-get install -y deluge
 # run these commands if thumbnails still don't work 
 # sudo apt-get install gstreamer1.0-libav
 # sudo rm -rf $HOME/.cache/thumbnails/
@@ -56,3 +57,20 @@ rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install -y code
+
+# install lutris
+sudo dpkg --add-architecture i386
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+sudo apt-get update
+sudo apt-get install -y --install-recommends winehq-stable
+sudo add-apt-repository ppa:lutris-team/lutris
+sudo apt-get update
+sudo apt-get -y install lutris
+
+# install steam
+sudo apt-get update
+sudo apt-get upgrade
+sudo add-apt-repository multiverse
+sudo apt-get install -y steam
