@@ -11,6 +11,7 @@ ssh-keygen -t ed25519
 # gnome desktop stuff
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
+gsettings set org.gnome.desktop.sound event-sounds false # this is seriously the most important configuration
 
 # git configurations
 sudo $MANAGER install -y git
