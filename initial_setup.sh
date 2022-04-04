@@ -86,5 +86,3 @@ sudo $MANAGER install -y python3 python3-pip python3-venv
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 nvm install --lts
-
-echo 'finished'
